@@ -1,16 +1,27 @@
 import React from 'react';
+import Head from 'next/head';
+// components
+import Title from '../components/Title/Title';
+import Terminal from '../components/Profile/Terminal';
 
 const Index = () => {
   return (
-    <div className="root">
-      <h1>gpng.github.io</h1>
-      <style jsx>
-        {`
-          .root {
-          }
-        `}
-      </style>
-    </div>
+    <>
+      <Head>
+        <title>Gerald&apos;s Portfolio</title>
+      </Head>
+      <div className="root">
+        <Title />
+        <Terminal />
+        <style jsx>
+          {`
+            .root {
+              padding: 0 1rem;
+            }
+          `}
+        </style>
+      </div>
+    </>
   );
 };
 
