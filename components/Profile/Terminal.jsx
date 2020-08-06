@@ -58,21 +58,27 @@ const Terminal = () => {
       <style jsx>{`
         .window {
           width: 100%;
-          margin: 75px auto;
+          margin: 4rem auto;
           background: #2c3e50;
-          height: 300px;
-          border-radius: 5px;
+          height: 18rem;
+          border-radius: 0.4rem;
           display: relative;
-          box-shadow: 10px 10px 10px #888888;
+          box-shadow: 0.6rem 0.6rem 0.6rem #888888;
+        }
+
+        .controls {
+          height: 2.5rem;
+          top: 0;
+          padding-right: 0.75rem;
         }
 
         .bash {
-          padding: 12px;
+          padding: 0.75rem;
           width: 100%;
           background: #34495e;
-          height: 260px;
-          border-radius: 5px;
-          top: 40px;
+          height: 15.5rem;
+          border-radius: 0.4rem;
+          top: 2.5rem;
           display: absolute;
           color: #ffffff;
         }
@@ -82,11 +88,11 @@ const Terminal = () => {
         }
 
         .buttons {
-          width: 15px;
-          height: 15px;
+          width: 1rem;
+          height: 1rem;
           border-radius: 50%;
           float: right;
-          margin: 13px 4px;
+          margin: 0.75rem 0.25rem;
           border: none;
         }
 
@@ -103,13 +109,7 @@ const Terminal = () => {
         }
 
         .result {
-          margin-bottom: 8px;
-        }
-
-        .controls {
-          height: 40px;
-          top: 0;
-          padding-right: 12px;
+          margin-bottom: 0.5rem;
         }
 
         .user {
