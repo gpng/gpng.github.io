@@ -68,6 +68,12 @@ const Title = () => {
             border-color: #333333;
           }
         }
+
+        @media (min-width: 1024px) {
+          .description {
+            text-align: center;
+          }
+        }
       `}</style>
     </div>
   );
