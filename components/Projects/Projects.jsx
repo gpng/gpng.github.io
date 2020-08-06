@@ -18,6 +18,11 @@ const Projects = () => {
         description="Covid Controls tracks and visualizes how governments around the world are responding to the Covid-19 outbreak. It collects data on lockdown measures, quarantine policies, tourists bans along with numbers on how the disease is spreading in every country and state around the world."
         url="https://covidcontrols.co"
       />
+      <ProjectCard
+        title="GE2020 Lineups"
+        description="View all candidates that contested in Singapore's General Elections 2020, with final and historical results."
+        url="https://ge2020.now.sh"
+      />
       <style jsx>{`
         .projects-root {
           margin-bottom: 4rem;
