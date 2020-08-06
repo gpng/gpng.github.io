@@ -1,8 +1,6 @@
-# NextJS with ESLint and Prettier Boilerplate
+# gpng.github.io
 
-> NextJS app with ESLint and prettier config setup
-
-Done to make my life easier when starting NextJS apps.
+> Portfolio Site
 
 ## Table of Contents
 
@@ -55,4 +53,4 @@ PRs accepted.
 
 ## License
 
-MIT © 2018 Gerald Png
+MIT © 2020 Gerald Png
