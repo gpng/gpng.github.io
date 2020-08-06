@@ -4,9 +4,9 @@ const Terminal = () => {
   return (
     <div className="window">
       <div className="controls">
-        <div className="buttons close" id="close" />
-        <div className="buttons maximize" href="#" />
-        <div className="buttons minimize" href="#" />
+        <div className="buttons minimize" />
+        <div className="buttons maximize" />
+        <div className="buttons close" />
       </div>
       <div className="bash">
         <div>
@@ -62,14 +62,15 @@ const Terminal = () => {
           background: #2c3e50;
           height: 18rem;
           border-radius: 0.4rem;
-          display: relative;
           box-shadow: 0.6rem 0.6rem 0.6rem #888888;
         }
 
         .controls {
           height: 2.5rem;
-          top: 0;
           padding-right: 0.75rem;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
         }
 
         .bash {
@@ -78,8 +79,6 @@ const Terminal = () => {
           background: #34495e;
           height: 15.5rem;
           border-radius: 0.4rem;
-          top: 2.5rem;
-          display: absolute;
           color: #ffffff;
         }
 
@@ -91,7 +90,6 @@ const Terminal = () => {
           width: 1rem;
           height: 1rem;
           border-radius: 50%;
-          float: right;
           margin: 0.75rem 0.25rem;
           border: none;
         }
