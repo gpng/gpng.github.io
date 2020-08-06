@@ -3,6 +3,7 @@ import Head from 'next/head';
 // components
 import Title from '../components/Title/Title';
 import Terminal from '../components/Profile/Terminal';
+import Projects from '../components/Projects/Projects';
 
 const Index = () => {
   return (
@@ -13,6 +14,7 @@ const Index = () => {
       <div className="root">
         <Title />
         <Terminal />
+        <Projects />
         <style jsx>
           {`
             .root {
