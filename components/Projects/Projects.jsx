@@ -4,15 +4,14 @@ import ProjectCard from './ProjectCard';
 const Projects = () => {
   return (
     <div className="projects-root">
-      <h2>Projects</h2>
       <ProjectCard
         title="Escape"
-        description="Don’t know where to go? Explore the cheapest trips from your city to every tourist
-        destination in the world on any given travel dates. Compare all the trips on a fun and
-        interactive map with respect to the weather forecast, popularity, safety levels, visa
-        requirements and so on."
+        description={`Don’t know where to go?
+
+Explore the cheapest trips from your city to every tourist destination in the world on any given travel dates.
+
+Compare all the trips on a fun and interactive map with respect to the weather forecast, popularity, safety levels, visa requirements and so on.`}
         url="https://greatescape.co"
-        image="/static/images/escape.jpg"
       />
       <ProjectCard
         title="Covid Controls"
@@ -23,13 +22,30 @@ It collects data on lockdown measures, quarantine policies, tourists bans along 
         image="/static/images/covidcontrols.png"
       />
       <ProjectCard
+        title="MeetGoWhere"
+        description={`Enter postal codes, and see where the are the best places to meetup in Singapore based on travel times.
+
+Made in response to colleagues lamenting about organizing team lunches when everyone stays all over Singapore.
+`}
+        url="https://meetgowhere.vercel.app"
+        source="https://github.com/gpng/meetgowhere"
+      />
+      <ProjectCard
+        title="RSwagGen"
+        description={`Generate RSwag schema from JSON input.
+
+Writing RSwag schema for JSON input/output was a super tedious process, so wrote this simple utility to generate a skeleton schema from a JSON object.
+`}
+        url="http://rswaggen.vercel.app/"
+        source="https://github.com/gpng/meetgowhere"
+      />
+      <ProjectCard
         title="GE2020 Lineups"
         description={`View all candidates that contested in Singapore's General Elections 2020, with final and historical results.
         
 Made in 1 day, in response to a lack of coordinated news by the various political parties. The goal was to visualise the confirmed/unconfirmed lineups that each party had announced before nomination day.`}
         url="https://ge2020.now.sh"
         source="https://github.com/gpng/ge2020"
-        image="/static/images/ge2020.png"
       />
       <ProjectCard
         title="SG Delivery Slots Telegram Bot"
@@ -39,15 +55,19 @@ SG Delivery Slots Bot was created to notify users based on their postcode, when 
 
 Decommissioned due to increased security by the major supermarkets on their API endpoints.`}
         source="https://github.com/gpng/delivery-bot-api"
-        image="/static/images/sg_delivery_bot.png"
       />
       <style jsx>{`
         .projects-root {
-          margin-bottom: 4rem;
+          display: grid;
+          grid-template-columns: 1fr;
+          column-gap: 1rem;
+          row-gap: 1rem;
         }
 
-        h2 {
-          text-align: center;
+        @media only screen and (min-width: 600px) {
+          .projects-root {
+            grid-template-columns: 1fr 1fr;
+          }
         }
       `}</style>
     </div>

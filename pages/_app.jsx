@@ -1,7 +1,8 @@
 import React from 'react';
 // styles
 import 'normalize.css';
-import 'typeface-open-sans';
+import '@fontsource/league-spartan/400.css';
+import '@fontsource/league-spartan/700.css';
 import '../styles/basic.css';
 
 // eslint-disable-next-line react/prop-types
