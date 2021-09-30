@@ -25,19 +25,27 @@ It collects data on lockdown measures, quarantine policies, tourists bans along 
         title="MeetGoWhere"
         description={`Enter postal codes, and see where the are the best places to meetup in Singapore based on travel times.
 
-Made in response to colleagues lamenting about organizing team lunches when everyone stays all over Singapore.
-`}
+Made in response to colleagues lamenting about organizing team lunches when everyone stays all over Singapore.`}
         url="https://meetgowhere.vercel.app"
         source="https://github.com/gpng/meetgowhere"
+      />
+      <ProjectCard
+        title="Broker Fees SG"
+        description={`Compare fees for trading US,HK and SG stocks across popular brokers in SG, such as IBKR, Saxo, Tiger Brokers, FSMOne and MooMoo`}
+        url="https://brokerfees.vercel.app"
       />
       <ProjectCard
         title="RSwagGen"
         description={`Generate RSwag schema from JSON input.
 
-Writing RSwag schema for JSON input/output was a super tedious process, so wrote this simple utility to generate a skeleton schema from a JSON object.
-`}
+Writing RSwag schema for JSON input/output was a super tedious process, so wrote this simple utility to generate a skeleton schema from a JSON object.`}
         url="http://rswaggen.vercel.app/"
         source="https://github.com/gpng/meetgowhere"
+      />
+      <ProjectCard
+        title="Wheel Tracker"
+        description={`Track your option wheel status and performance.`}
+        url="http://wheel.gpng.tech/"
       />
       <ProjectCard
         title="GE2020 Lineups"
