@@ -47,16 +47,15 @@ const ProjectCard = ({ title, description, url, source }) => {
         .link {
           flex: 0 0 auto;
           border-radius: 0.2rem;
-          padding: 0.5rem 1rem;
+          padding: 0.3rem 0.5rem;
           text-decoration: none;
           margin-right: 1rem;
           display: flex;
           align-items: center;
         }
 
-        .link > img {
-          width: 1rem;
-          margin-right: 0.5rem;
+        .link > span {
+          margin-left: 0.5rem;
         }
 
         .link:hover {
