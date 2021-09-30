@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import PropTypes from 'prop-types';
 
 const ProjectCard = ({ title, description, url, source }) => {
@@ -14,7 +15,7 @@ const ProjectCard = ({ title, description, url, source }) => {
         )}
         {source && (
           <a className="link link-source" href={source} target="_blank" rel="noopener noreferrer">
-            <img src="/static/icons/github.svg" alt="github" />
+            <Image src="/static/icons/github.svg" alt="github" height={16} width={16} />
             <span>View Source</span>
           </a>
         )}
