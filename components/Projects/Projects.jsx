@@ -43,6 +43,20 @@ Writing RSwag schema for JSON input/output was a super tedious process, so wrote
         source="https://github.com/gpng/meetgowhere"
       />
       <ProjectCard
+        title="Go Log Utils"
+        description={`VS Code Extension. Easily insert and remove log.Println statements.`}
+        url="https://marketplace.visualstudio.com/items?itemName=gpng.go-log-utils/"
+        source="https://github.com/gpng/vscode-go-log-utils"
+      />
+      <ProjectCard
+        title="Text To XML Safe String"
+        description={`VS Code Extension. Formats text to XML safe string, replace linebreaks (\\n), tabs (\\t), and special characters (&, ', ", <, >).
+        
+Made this as we needed a way to convert multi-line Go code into strings in xml.`}
+        url="https://marketplace.visualstudio.com/items?itemName=gpng.text-to-xml-safe-string"
+        source="https://github.com/gpng/vscode-text-to-xml-safe-string"
+      />
+      <ProjectCard
         title="Wheel Tracker"
         description={`Track your option wheel status and performance.`}
         url="http://wheel.gpng.tech/"
