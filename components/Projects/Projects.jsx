@@ -22,6 +22,14 @@ It collects data on lockdown measures, quarantine policies, tourists bans along 
         image="/static/images/covidcontrols.png"
       />
       <ProjectCard
+        title="Geodle"
+        description={`A geography-based variant of Wordle, inspired by Worldle.
+        
+You have 6 attempts to guess the daily location. Initiatlly released with 2 puzzles, Singapore MRTs & LRTs, and Singapore MRTs only.`}
+        url="https://geodle.vercel.app"
+        source="https://github.com/gpng/geodle"
+      />
+      <ProjectCard
         title="MeetGoWhere"
         description={`Enter postal codes, and see where the are the best places to meetup in Singapore based on travel times.
 

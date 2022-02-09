@@ -1,6 +1,7 @@
 {
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "extends": ["next", "prettier"],
+  "requireConfigFile": false,
   "env": {
     "browser": true
   },
