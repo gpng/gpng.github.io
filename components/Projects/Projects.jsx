@@ -6,7 +6,7 @@ const Projects = () => {
     <div className="projects-root">
       <ProjectCard
         title="Escape"
-        description={`Don’t know where to go?
+        description={`Don't know where to go?
 
 Explore the cheapest trips from your city to every tourist destination in the world on any given travel dates.
 
