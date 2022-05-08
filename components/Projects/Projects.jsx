@@ -92,6 +92,7 @@ Decommissioned due to increased security by the major supermarkets on their API 
           grid-template-columns: 1fr;
           column-gap: 1rem;
           row-gap: 1rem;
+          margin-bottom: 2rem;
         }
 
         @media only screen and (min-width: 600px) {
