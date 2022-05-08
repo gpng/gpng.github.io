@@ -1,5 +1,5 @@
-import React from 'react';
 import Head from 'next/head';
+import React from 'react';
 // components
 import Projects from '../components/Projects/Projects';
 
@@ -26,20 +26,20 @@ const Index = () => {
             <img src="/static/icons/gmail.svg" alt="gmail" />
           </a>
         </div>
-        <h2>About Me</h2>
+        <h2>about me</h2>
         <ul>
           <li>Based in Singapore</li>
           <li>
-            Co-founder / Lead developer of <a href="https://greatescape.co">greatescape.co</a> and{' '}
+            Co-founder / lead developer of <a href="https://greatescape.co">greatescape.co</a> and{' '}
             <a href="https://covidcontrols.co">covidcontrols.co</a>
           </li>
         </ul>
-        <h2>What I do</h2>
+        <h2>what i do</h2>
         <ul>
           <li>Software Engineering / Full Stack Development</li>
           <li>Try to create useful apps</li>
         </ul>
-        <h2>Things I Made</h2>
+        <h2>things i&apos;ve made</h2>
         <Projects />
         <style jsx>
           {`
