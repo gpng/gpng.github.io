@@ -1,13 +1,13 @@
 import Head from 'next/head';
 import React from 'react';
-// components
+import Bookshelf from '../components/Bookshelf/Bookshelf';
 import Projects from '../components/Projects/Projects';
 
 const Index = () => {
   return (
     <>
       <Head>
-        <title>Gerald&apos;s Portfolio</title>
+        <title>Gerald Png</title>
       </Head>
       <div className="root">
         <h1>Gerald Png</h1>
@@ -41,6 +41,8 @@ const Index = () => {
         </ul>
         <h2>things i&apos;ve made</h2>
         <Projects />
+        <h2>my bookshelf</h2>
+        <Bookshelf />
         <style jsx>
           {`
             .root {
