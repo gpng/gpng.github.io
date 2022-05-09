@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import PropTypes from 'prop-types';
 import React, { useMemo } from 'react';
 import seedrandom from 'seedrandom';
@@ -24,7 +23,6 @@ const generateBookDetails = (title, author) => {
   const color = COLORS[Math.floor(randomNumber * COLORS.length)];
   const initials = author
     .split(' ')
-    .slice(0, 3)
     .map((name) => name[0])
     .join('');
 
@@ -67,11 +65,9 @@ const Book = ({ title, coverImageUrl, author }) => {
           style={{
             height: `${height}px`,
             top: `${MAX_HEIGHT - height}px`,
-            // backgroundImage: `url(${coverImageUrl})`,
+            backgroundImage: `url(${coverImageUrl})`,
           }}
-        >
-          <Image src={coverImageUrl} objectFit="fill" layout="fill" alt={title} />
-        </div>
+        />
       </div>
       <style jsx>{`
         .book {
@@ -134,6 +130,9 @@ const Book = ({ title, coverImageUrl, author }) => {
           width: 190px;
           height: 280px;
           top: 0px;
+          background-image: url('https://picsum.photos/190/280');
+          background-size: contain;
+          background-repeat: round;
           left: 50px;
           transform: rotateY(90deg) translateZ(0);
           transition: transform 1s;
