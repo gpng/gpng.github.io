@@ -5,7 +5,7 @@ import Book from './Book';
 const Bookshelf = () => {
   return (
     <div className="bookshelf">
-      <h3>2021</h3>
+      <h3>2022</h3>
       <div className="shelf">
         {BOOKS_2022.map((book) => (
           <Book
