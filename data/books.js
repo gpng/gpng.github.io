@@ -194,4 +194,16 @@ export const BOOKS_2022 = [
       'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1430330507l/25451264.jpg',
     author: 'Liu Cixin',
   },
+  {
+    title: "River of London",
+    coverImageUrl:
+      'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1401385034l/9317452.jpg',
+    author: 'Ben Aaronovitch',
+  },
+  {
+    title: "Moon Over Soho",
+    coverImageUrl:
+      'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1401386247l/10381195.jpg',
+    author: 'Ben Aaronovitch',
+  },
 ];
