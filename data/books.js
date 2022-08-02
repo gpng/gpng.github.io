@@ -195,15 +195,27 @@ export const BOOKS_2022 = [
     author: 'Liu Cixin',
   },
   {
-    title: "River of London",
+    title: 'River of London',
     coverImageUrl:
       'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1401385034l/9317452.jpg',
     author: 'Ben Aaronovitch',
   },
   {
-    title: "Moon Over Soho",
+    title: 'Moon Over Soho',
     coverImageUrl:
       'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1401386247l/10381195.jpg',
+    author: 'Ben Aaronovitch',
+  },
+  {
+    title: 'Whispers Under Ground',
+    coverImageUrl:
+      'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1349807829i/10814687.jpg',
+    author: 'Ben Aaronovitch',
+  },
+  {
+    title: 'Broken Homes',
+    coverImageUrl:
+      'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1403204872i/16078584.jpg',
     author: 'Ben Aaronovitch',
   },
 ];

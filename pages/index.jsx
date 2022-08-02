@@ -42,6 +42,7 @@ const Index = () => {
         <h2>things i&apos;ve made</h2>
         <Projects />
         <h2>my bookshelf</h2>
+        <p>I usually read fiction and sci-fi for enjoyment</p>
         <Bookshelf />
         <style jsx>
           {`
@@ -63,7 +64,8 @@ const Index = () => {
               margin: 0 0 1rem;
             }
 
-            ul {
+            ul,
+            p {
               font-size: 1rem;
             }
 
@@ -95,7 +97,8 @@ const Index = () => {
                 margin: 0 0 2rem;
               }
 
-              ul {
+              ul,
+              p {
                 font-size: 1.5rem;
               }
 
