@@ -1,5 +1,6 @@
+import Image from 'next/image';
 import PropTypes from 'prop-types';
-import React, { useMemo } from 'react';
+import React, { useMemo, useState } from 'react';
 import seedrandom from 'seedrandom';
 
 const PATTERNS = ['argyle', 'tartan'];
@@ -35,14 +36,23 @@ const generateBookDetails = (title, author) => {
 };
 
 const Book = ({ title, coverImageUrl, author }) => {
+  // don't load all images, only load on hover
+  // set default to true to enable, disabled now because it's slow,
+  // and still under the open library rate limit of 100 calls per 5 min
+  const [loadImage, setLoadImage] = useState(true);
+
   const { height, pattern, color, initials } = useMemo(
     () => generateBookDetails(title, author),
     [title, author],
   );
 
+  const handleMouseEnter = () => {
+    setLoadImage(true);
+  };
+
   return (
     <div>
-      <div className="book">
+      <div className="book" onMouseEnter={handleMouseEnter}>
         <div
           className={`side spine pattern--${pattern}`}
           style={{
@@ -65,9 +75,10 @@ const Book = ({ title, coverImageUrl, author }) => {
           style={{
             height: `${height}px`,
             top: `${MAX_HEIGHT - height}px`,
-            backgroundImage: `url(${coverImageUrl})`,
           }}
-        />
+        >
+          {loadImage && <Image src={coverImageUrl} alt={title} layout="fill" />}
+        </div>
       </div>
       <style jsx>{`
         .book {
@@ -130,12 +141,16 @@ const Book = ({ title, coverImageUrl, author }) => {
           width: 190px;
           height: 280px;
           top: 0px;
-          background-image: url('https://picsum.photos/190/280');
-          background-size: contain;
-          background-repeat: round;
           left: 50px;
           transform: rotateY(90deg) translateZ(0);
           transition: transform 1s;
+          background: white;
+        }
+
+        .cover > img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
         }
 
         .book:hover {

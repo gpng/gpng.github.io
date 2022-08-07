@@ -2,6 +2,11 @@ import React from 'react';
 import { BOOKS_2021, BOOKS_2022 } from '../../data/books';
 import Book from './Book';
 
+const getCoverUrl = (book) =>
+  book.openLibraryId
+    ? `https://covers.openlibrary.org/b/olid/${book.openLibraryId}-M.jpg`
+    : book.coverImageUrl;
+
 const Bookshelf = () => {
   return (
     <div className="bookshelf">
@@ -11,7 +16,7 @@ const Bookshelf = () => {
           <Book
             key={book.title}
             title={book.title}
-            coverImageUrl={book.coverImageUrl}
+            coverImageUrl={getCoverUrl(book)}
             author={book.author}
           />
         ))}
@@ -22,7 +27,7 @@ const Bookshelf = () => {
           <Book
             key={book.title}
             title={book.title}
-            coverImageUrl={book.coverImageUrl}
+            coverImageUrl={getCoverUrl(book)}
             author={book.author}
           />
         ))}
