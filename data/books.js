@@ -226,6 +226,36 @@ export const BOOKS_2022 = [
     openLibraryId: 'OL26214600M',
   },
   {
+    title: "Ender's Game",
+    author: 'Orson Scott Card',
+    openLibraryId: 'OL9708865M',
+  },
+  {
+    title: "Ender in Exile",
+    author: 'Orson Scott Card',
+    openLibraryId: 'OL17032197M',
+  },
+  {
+    title: "Ender's Shadow",
+    author: 'Orson Scott Card',
+    openLibraryId: 'OL42672M',
+  },
+  {
+    title: "Shadow of the Hegemon",
+    author: 'Orson Scott Card',
+    openLibraryId: 'OL6782464M',
+  },
+  {
+    title: "Shadow Puppets",
+    author: 'Orson Scott Card',
+    openLibraryId: 'OL3657555M',
+  },
+  {
+    title: "Shadow of the Giant",
+    author: 'Orson Scott Card',
+    openLibraryId: 'OL32352975M',
+  },
+  {
     title: 'River of London',
     coverImageUrl:
       'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1401385034l/9317452.jpg',
