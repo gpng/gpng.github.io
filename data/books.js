@@ -1,4 +1,4 @@
-export const BOOKS_2021 = [
+const BOOKS_2021 = [
   {
     title: 'A Master of Djinn',
     coverImageUrl:
@@ -168,7 +168,7 @@ export const BOOKS_2021 = [
   },
 ];
 
-export const BOOKS_2022 = [
+const BOOKS_2022 = [
   {
     title: 'The Name of the Wind',
     coverImageUrl:
@@ -294,3 +294,6 @@ export const BOOKS_2022 = [
     openLibraryId: 'OL26793925M',
   },
 ];
+
+
+module.exports = { BOOKS_2021, BOOKS_2022 }

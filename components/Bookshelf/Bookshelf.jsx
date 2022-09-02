@@ -1,11 +1,16 @@
 import React from 'react';
 import { BOOKS_2021, BOOKS_2022 } from '../../data/books';
 import Book from './Book';
+import slugify from 'slugify';
 
-const getCoverUrl = (book) =>
-  book.openLibraryId
-    ? `https://covers.openlibrary.org/b/olid/${book.openLibraryId}-M.jpg`
-    : book.coverImageUrl;
+const slugifiedTitle = (title) =>
+  slugify(title, {
+    lower: true,
+    strict: true,
+    trim: true,
+  });
+
+const getCoverUrl = (book) => `static/images/covers/${slugifiedTitle(book.title)}.jpg`;
 
 const Bookshelf = () => {
   return (
