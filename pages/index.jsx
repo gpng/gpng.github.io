@@ -28,21 +28,25 @@ const Index = () => {
         </div>
         <h2>about me</h2>
         <ul>
-          <li>Based in Singapore</li>
+          <li>based in singapore</li>
           <li>
-            Co-founder / lead developer of <a href="https://greatescape.co">greatescape.co</a> and{' '}
+            software engineer in govtech singapore, experimental systems and technology lab,
+            ministry of education
+          </li>
+          <li>
+            co-founder / lead developer of <a href="https://greatescape.co">greatescape.co</a> and{' '}
             <a href="https://covidcontrols.co">covidcontrols.co</a>
           </li>
         </ul>
         <h2>what i do</h2>
         <ul>
-          <li>Software Engineering / Full Stack Development</li>
-          <li>Try to create useful apps</li>
+          <li>software engineering / full stack development</li>
+          <li>try to create useful or interesting apps</li>
         </ul>
         <h2>things i&apos;ve made</h2>
         <Projects />
         <h2>my bookshelf</h2>
-        <p>I usually read fiction and sci-fi for enjoyment</p>
+        <p>I usually read fiction and sci-fi for fun</p>
         <Bookshelf />
         <style jsx>
           {`
