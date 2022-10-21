@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "engines": {
+    "node": ">= 16.0.0"
+  },
   "dependencies": {
     "@fontsource/league-spartan": "^4.5.11",
     "classnames": "^2.3.1",
