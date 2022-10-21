@@ -6,6 +6,10 @@
 
 - [Usage](#usage)
 
+## Download cover
+
+`node ./scripts/download-covers.js`
+
 ## Deploy
 
 ```sh

@@ -293,6 +293,52 @@ const BOOKS_2022 = [
     author: 'Ben Aaronovitch',
     openLibraryId: 'OL26793925M',
   },
+  {
+    title: 'Lies Sleeping',
+    author: 'Ben Aaronovitch',
+    openLibraryId: 'OL30414131M',
+  },
+  {
+    title: 'False Value',
+    author: 'Ben Aaronovitch',
+    openLibraryId: 'OL28722231M',
+  },
+  {
+    title: 'Amongst Our Weapons',
+    author: 'Ben Aaronovitch',
+    openLibraryId: 'OL39550551M',
+  },
+  {
+    title: 'Neither Civil Nor Servant',
+    author: 'Shing Huei Peh',
+  },
+  {
+    title: 'Red Rising',
+    author: 'Pierce Brown',
+    openLibraryId: 'OL27564687M'
+  },
+  {
+    title: 'Golden Son',
+    author: 'Pierce Brown',
+    openLibraryId: 'OL34720805M'
+  },
+  {
+    title: 'Morning Star',
+    author: 'Pierce Brown',
+    openLibraryId: 'OL29316221M'
+  }, {
+    title: "Project Hail Mary",
+    author: "Andy Weir",
+    openLibraryId: 'OL30036715M'
+  }, {
+    title: "Cloud Cuckoo Land",
+    author: "Anthony Doerr",
+    openLibraryId: 'OL34031538M'
+  }, {
+    title: "Fairy Tale",
+    author: "Stephen King",
+    openLibraryId: 'OL39803541M'
+  }
 ];
 
 
