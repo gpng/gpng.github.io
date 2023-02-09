@@ -22,6 +22,13 @@ It collects data on lockdown measures, quarantine policies, tourists bans along 
         image="/static/images/covidcontrols.png"
       />
       <ProjectCard
+        title="FINeDER"
+        description={`Find fine dining restaurants in Singapore.
+
+I made this because I realized that there is no single source of information of fine dining restaurants, especially their set menu prices. With this site, you can filter by price, Michelin stars, google ratings, lunch/dinner days, cuisine, and even dress code.`}
+        url="https://fineder.sg"
+      />
+      <ProjectCard
         title="Geodle"
         description={`A geography-based variant of Wordle, inspired by Worldle.
         
