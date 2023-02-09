@@ -46,7 +46,7 @@ const Index = () => {
         <h2>things i&apos;ve made</h2>
         <Projects />
         <h2>my bookshelf</h2>
-        <p>I usually read fiction and sci-fi for fun</p>
+        <p>I usually read fiction, fantasy and sci-fi</p>
         <Bookshelf />
         <style jsx>
           {`

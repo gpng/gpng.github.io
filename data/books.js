@@ -231,7 +231,7 @@ const BOOKS_2022 = [
     openLibraryId: 'OL9708865M',
   },
   {
-    title: "Ender in Exile",
+    title: 'Ender in Exile',
     author: 'Orson Scott Card',
     openLibraryId: 'OL17032197M',
   },
@@ -241,17 +241,17 @@ const BOOKS_2022 = [
     openLibraryId: 'OL42672M',
   },
   {
-    title: "Shadow of the Hegemon",
+    title: 'Shadow of the Hegemon',
     author: 'Orson Scott Card',
     openLibraryId: 'OL6782464M',
   },
   {
-    title: "Shadow Puppets",
+    title: 'Shadow Puppets',
     author: 'Orson Scott Card',
     openLibraryId: 'OL3657555M',
   },
   {
-    title: "Shadow of the Giant",
+    title: 'Shadow of the Giant',
     author: 'Orson Scott Card',
     openLibraryId: 'OL32352975M',
   },
@@ -315,31 +315,126 @@ const BOOKS_2022 = [
   {
     title: 'Red Rising',
     author: 'Pierce Brown',
-    openLibraryId: 'OL27564687M'
+    openLibraryId: 'OL27564687M',
   },
   {
     title: 'Golden Son',
     author: 'Pierce Brown',
-    openLibraryId: 'OL34720805M'
+    openLibraryId: 'OL34720805M',
   },
   {
     title: 'Morning Star',
     author: 'Pierce Brown',
-    openLibraryId: 'OL29316221M'
-  }, {
-    title: "Project Hail Mary",
-    author: "Andy Weir",
-    openLibraryId: 'OL30036715M'
-  }, {
-    title: "Cloud Cuckoo Land",
-    author: "Anthony Doerr",
-    openLibraryId: 'OL34031538M'
-  }, {
-    title: "Fairy Tale",
-    author: "Stephen King",
-    openLibraryId: 'OL39803541M'
-  }
+    openLibraryId: 'OL29316221M',
+  },
+  {
+    title: 'Project Hail Mary',
+    author: 'Andy Weir',
+    openLibraryId: 'OL30036715M',
+  },
+  {
+    title: 'Cloud Cuckoo Land',
+    author: 'Anthony Doerr',
+    openLibraryId: 'OL34031538M',
+  },
+  {
+    title: 'Fairy Tale',
+    author: 'Stephen King',
+    openLibraryId: 'OL39803541M',
+  },
+  {
+    title: 'Sabriel',
+    author: 'Garth Nix',
+    openLibraryId: 'OL22951843M',
+  },
+  {
+    title: 'The Rithmatist',
+    author: 'Brandon Sanderson',
+    openLibraryId: 'OL25652687M',
+  },
+  {
+    title: 'Lirael',
+    author: 'Garth Nix',
+    openLibraryId: 'OL24753262M',
+  },
+  {
+    title: 'Abhorsen',
+    author: 'Garth Nix',
+    openLibraryId: 'OL24967470M',
+  },
+  {
+    title: 'Sixteen Ways to Defend a Walled City',
+    author: 'K.J. Parker',
+    openLibraryId: 'OL27340399M',
+  },
+  {
+    title: 'The Goblin Emperor',
+    author: 'Katherine Addison',
+    openLibraryId: 'OL27979641M',
+  },
+  {
+    title: 'The Hands of the Emperor',
+    author: 'Victoria Goddard',
+    openLibraryId: 'OL42102918M',
+  },
+  {
+    title: 'All Systems Red',
+    author: 'Martha Wells',
+    openLibraryId: 'OL28191560M',
+  },
+  {
+    title: 'Rogue Protocol',
+    author: 'Martha Wells',
+    openLibraryId: 'OL26966631M',
+  },
+  {
+    title: 'Artificial Condition',
+    author: 'Martha Wells',
+    openLibraryId: 'OL37474569M',
+  },
+  {
+    title: 'Exit Strategy',
+    author: 'Martha Wells',
+    openLibraryId: 'OL26976340M',
+  },
+  {
+    title: 'Leviathan Wakes',
+    author: 'James S.A. Corey',
+    openLibraryId: 'OL25001749M',
+  },
+  {
+    title: "Caliban's War",
+    author: 'James S.A. Corey',
+    openLibraryId: 'OL25004982M',
+  },
 ];
 
+const BOOKS_2023 = [
+  {
+    title: "Abaddon's Gate",
+    author: 'James S.A. Corey',
+    openLibraryId: 'OL25644253M',
+  },
+  {
+    title: 'Cibola Burn',
+    author: 'James S.A. Corey',
+    openLibraryId: 'OL26038820M',
+  },
+  {
+    title: 'Nemesis Games',
+    author: 'James S.A. Corey',
+    openLibraryId: 'OL32816441M',
+  },
+  {
+    title: "Babylon's Ashes",
+    author: 'James S.A. Corey',
+    openLibraryId: 'OL26382976M',
+  },
+  {
+    title: 'Skyward',
+    author: 'Brandon Sanderson',
+    openLibraryId: 'OL27657587M',
+  },
+];
 
-module.exports = { BOOKS_2021, BOOKS_2022 }
+module.exports = { BOOKS_2021, BOOKS_2022, BOOKS_2023 };

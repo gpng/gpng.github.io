@@ -1,6 +1,6 @@
 import React from 'react';
 import slugify from 'slugify';
-import { BOOKS_2021, BOOKS_2022 } from '../../data/books';
+import { BOOKS_2021, BOOKS_2022, BOOKS_2023 } from '../../data/books';
 import Book from './Book';
 
 const slugifiedTitle = (title) =>
@@ -15,6 +15,17 @@ const getCoverUrl = (book) => `/static/images/covers/${slugifiedTitle(book.title
 const Bookshelf = () => {
   return (
     <div className="bookshelf">
+      <h3>2023</h3>
+      <div className="shelf">
+        {BOOKS_2023.map((book) => (
+          <Book
+            key={book.title}
+            title={book.title}
+            coverImageUrl={getCoverUrl(book)}
+            author={book.author}
+          />
+        ))}
+      </div>
       <h3>2022</h3>
       <div className="shelf">
         {BOOKS_2022.map((book) => (
