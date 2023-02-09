@@ -1,7 +1,7 @@
 import React from 'react';
+import slugify from 'slugify';
 import { BOOKS_2021, BOOKS_2022 } from '../../data/books';
 import Book from './Book';
-import slugify from 'slugify';
 
 const slugifiedTitle = (title) =>
   slugify(title, {
@@ -10,7 +10,7 @@ const slugifiedTitle = (title) =>
     trim: true,
   });
 
-const getCoverUrl = (book) => `static/images/covers/${slugifiedTitle(book.title)}.jpg`;
+const getCoverUrl = (book) => `/static/images/covers/${slugifiedTitle(book.title)}.jpg`;
 
 const Bookshelf = () => {
   return (
