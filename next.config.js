@@ -1,4 +1,6 @@
 module.exports = {
+  output: 'export',
+  distDir: 'docs',
   images: {
     loader: 'akamai',
     path: '',

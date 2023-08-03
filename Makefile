@@ -1,3 +1,3 @@
 default:
-	yarn export
+	pnpm run build
 	touch docs/.nojekyll

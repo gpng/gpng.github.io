@@ -37,6 +37,15 @@ You have 6 attempts to guess the daily location. Initiatlly released with 2 puzz
         source="https://github.com/gpng/geodle"
       />
       <ProjectCard
+        title="TeleSheets Expense Bot"
+        description={`This telegram bot allows you to easily track your expenses on a Google Sheet by sending messages in private and group chats.
+
+Initially a private bot as I wanted an easy way to keep track of expenses, and a combination of Google Sheets + a messenging app that I'm used to.
+
+Extended it so anyone can connect their Google Sheets and use it too.`}
+        url="https://t.me/telesheets_expense_bot"
+      />
+      <ProjectCard
         title="MeetGoWhere"
         description={`Enter postal codes, and see where the are the best places to meetup in Singapore based on travel times.
 
