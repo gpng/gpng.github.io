@@ -1,35 +1,65 @@
 {
   "name": "gpng.github.io",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "private": true,
   "engines": {
-    "node": ">= 16.0.0"
-  },
-  "dependencies": {
-    "@fontsource/league-spartan": "^5.0.6",
-    "classnames": "^2.3.2",
-    "next": "^13.4.12",
-    "node-fetch": "^3.0.0",
-    "normalize.css": "^8.0.1",
-    "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "seedrandom": "^3.0.5",
-    "slugify": "^1.6.6"
+    "node": "^22"
   },
   "scripts": {
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "lint": "biome check .",
+    "lint:fix": "biome check --fix .",
+    "check:updates": "pnpm dlx npm-check-updates --interactive --format group",
+    "check:knip": "knip",
     "export": "next build && next export -o docs/",
-    "lint": "next lint",
     "dl-covers": "node scripts/download-covers.js"
   },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.2.5",
+    "@fontsource/league-spartan": "^5.0.6",
+    "@hookform/resolvers": "^3.10.0",
+    "@iconify/react": "^5.2.0",
+    "@radix-ui/react-label": "^2.1.2",
+    "@radix-ui/react-slot": "^1.1.2",
+    "@radix-ui/react-toast": "^1.2.6",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.474.0",
+    "next": "15.1.6",
+    "node-fetch": "^3.0.0",
+    "normalize.css": "^8.0.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-hook-form": "^7.54.2",
+    "seedrandom": "^3.0.5",
+    "simple-icons": "^14.11.1",
+    "slugify": "^1.6.6",
+    "tailwind-merge": "^2.0.0",
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "~3.24.1"
+  },
   "devDependencies": {
-    "eslint": "^8.46.0",
-    "eslint-config-next": "^13.4.12",
-    "eslint-config-prettier": "^8.10.0",
-    "prettier": "^3.0.1"
+    "@biomejs/biome": "1.9.4",
+    "@types/lodash": "^4.17.15",
+    "@types/node": "^22.13.1",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "autoprefixer": "^10.4.20",
+    "knip": "^5.43.6",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@biomejs/biome",
+      "bcrypt",
+      "sharp"
+    ]
   }
 }
